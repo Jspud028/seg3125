@@ -1,0 +1,124 @@
+/* Override */
+
+body {
+    background-color: maroon;
+  }
+  html *
+  {
+     color: white ;
+     font-family: 'Trebuchet MS'!important;
+  }
+  textarea{
+    color: black;
+  }
+  input{
+    color: black;
+  }
+
+  h1 {
+    margin-left: 20px;
+    display: inline-block;
+  }
+  p {
+    color: black;
+
+  }
+
+
+/* Classes */
+
+/* Containers */
+/* --------------------------------------------------------------------- */
+
+  .TitleContainer{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline;
+  }
+  .TitleContainer,img{
+    width: 7%;
+    height: auto;
+  }
+  .MainContainer{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 250px;
+    border-radius: 5px;
+  }
+  .ContactContainer{
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 250px;
+    border-radius: 5px;
+  }
+  .Locations{
+    position: absolute;
+    bottom: 500px;
+    right: 500px;
+    height: 100px;
+    width: 300px;
+    z-index: 1;
+    background-color: maroon;
+    color: white;
+    border: solid 1px gray;
+    
+  
+  }
+/* --------------------------------------------------------------------- */
+.navBar{
+    background-color: #181616;
+  }
+    a.button {
+      appearance: button;
+      text-decoration: none;
+      padding: 10px;
+      margin: 10px;
+    color: white;
+    background-color: #a7a5a5;
+    border-radius: 5px;
+    font-size: 20px;
+}
+a.button:visited {
+  color: white;
+}
+a.button:hover {
+    background-color: #d0d0d0;
+}
+a.button:active {
+    background-color: #a7a5a5;
+}
+ 
+  .ContactContainer{
+    max-width: 800px;
+    max-height: 2000px;
+
+    background-color: #636161;
+    border-radius: 5px;
+
+  }
+  .ContactContainer,input{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+  }
+  .ContactContainer,form{
+    height: 100%;
+    width: 100%;
+  }
+  .ContactContainer,textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+  }
+  .ContactContainer, input[type=submit]{
+    width: 100%;
+    font-size: 20px;
+
+  }

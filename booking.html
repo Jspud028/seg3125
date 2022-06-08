@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="booking.css">
+
+    <body>
+        <div class="TitleContainer">
+            <img src="../templates/pretty_pooch.jpg" alt="pooch">
+            <h1>Pretty Pet Groomers</h1>
+            <br>
+        </div>
+
+        <div class="navBar">
+            <a href="HomePage.html" class="button">Home</a>
+            <a href="contactPage.html" class="button">Contact Us</a>
+            <a href="booking.html" class="button">Booking</a>
+            <a href="spa.html" class="button">Spa Services</a>
+            <a href="gallery.html" class="button">Gallery</a>
+            <a style= "float:right;" href="AboutUs.html" class="button">About Us</a>
+        </div>
+        <h2>Booking</h2>
+        <div class="ContactContainer">
+            <form action="PlaceHolder.php">
+                <button style="background-color: rgb(65, 65, 65);" type="button">
+                  Click here for dates and times!
+                    </button>
+                    <br>
+                    <br>
+                <label for="Names">Names</label>
+                <br>
+                <input type="text" id="nameHuman" name="nameHuman" placeholder="Your Name: ">
+                <br>
+                <input type="text" id="petName" name="petName" placeholder="Your Pets Name:">
+                <br>
+                <label for="Email Address">Email Address</label>
+                <br>
+                <input type="text" id="EmailAddress" name="EmailAddress" placeholder="yourEmail@here.com">
+                <br>
+                <label for="PhoneNumber">Phone Number</label>
+                <br>
+                <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="(xxx)-xxx-xxxx">
+                <br>
+                <label for="Expert Request">Expert Request</label>
+                <br>
+                <input type="text" id="ExpertName" name="ExpertName" placeholder="Enter your requested expert here Or leave blank ">
+                <br>
+                <label for="Service">Service Required</label>
+                <br>
+                <input type="text" id="Services" name="Services Required" placeholder="What Service do you require? ">
+                <br>
+                <label for="DateAndTime">Date and Time</label>
+                <br>
+                <input type="text" id="DateAndTime" name="DateAndTime" placeholder="dd/mm/yy ">
+                <br>
+                <input type="text" id="Time" name="Time" placeholder="Time: 9-5: Monday-Friday / 10-4 Saturday-Sunday ">
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+                <br>
+                <br> 
+                <button style="background-color: rgb(65, 65, 65);" type="button">
+                    You have booked with _____ On dd/mm/yy at 00:00am
+                    </button>
+            </form>
+
+         </div>
+
+         <div class="Locations">
+            <img src = "../templates/locations.jpg" alt="locations"style="width:600px;height:300px">
+            <div class="overlay">Our Locations</div>
+        </div>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,146 @@
+/* Override */
+body {
+    background-color: maroon;
+  }
+  html *
+  {
+     color: white ;
+     font-family: 'Trebuchet MS'!important;
+  }
+  textarea{
+    color: black;
+  }
+  input{
+    color: black;
+  }
+  h1 {
+    margin-left: 20px;
+    display: inline-block;
+  }
+  p {
+    color: black;
+
+  }
+
+
+/* Classes */
+/* Containers */
+/* --------------------------------------------------------------------- */
+  .TitleContainer{
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline;
+  }
+  .TitleContainer,img{
+    width: 7%;
+    height: auto;
+  }
+  .spa{
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    height: 100px;
+    width: 300px;
+    z-index: 1;
+    
+  
+  }
+  .spa2{
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    height: 100px;
+    width: 300px;
+    z-index: 1;
+    
+    
+  
+  } .spa3{
+    position: absolute;
+    bottom: 200px;
+    left: 10px;
+    height: 100px;
+    width: 300px;
+    z-index: 1;
+   
+    
+  
+  } .spa4{
+    position: absolute;
+    bottom: 200px;
+    right: 100px;
+    height: 100px;
+    width: 300px;
+    z-index: 1;
+    
+  }
+  .spa5{
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    height: 100px;
+    width: 300px;
+    z-index: 1;
+    
+  }
+  
+/* --------------------------------------------------------------------- */
+.navBar{
+    background-color: #181616;
+  }
+    a.button {
+      appearance: button;
+      text-decoration: none;
+      padding: 10px;
+      margin: 10px;
+      color: white;
+      background-color: #a7a5a5;
+   
+      border-radius: 5px;
+      font-size: 20px;
+  }
+  a.button:visited {
+    color: white;
+  }
+  a.button:hover {
+      background-color: #d0d0d0;
+  }
+  a.button:active {
+      background-color: #a7a5a5;
+  }
+/*-------------------------------------------------------------------------*/
+  .CGPAConverterContainer{
+    max-width: 800px;
+    max-height: 2000px;
+
+    background-color: #636161;
+    border-radius: 5px;
+
+  }
+  .CGPAConverterContainer,input{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+  }
+  .CGPAConverterContainer,form{
+    height: 400px;
+    width: 100%;
+  }
+  .CGPAConverterContainer,label{
+      text-align: center;
+      font-size: 13pt;
+  }
+  .CGPAConverterContainer,table{
+    margin-left: auto;
+    margin-right: auto;
+   
+    border: 1px solid black;
+  }
+
+  caption {
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+    background-color: black;
+
+}
